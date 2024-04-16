@@ -1,0 +1,33 @@
+{
+  "name": "aibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fastify/websocket": "^10.0.1",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.12.6",
+    "@types/ws": "^8.5.10",
+    "eslint": "^8.57.0",
+    "prisma": "^5.12.1",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4",
+    "zod": "^3.22.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "@prisma/client": "^5.12.1",
+    "axios": "^1.6.8",
+    "fastify": "^4.26.2",
+    "fastify-cors": "^6.1.0",
+    "fastify-socket.io": "^5.0.0",
+    "fastify-websocket": "^4.3.0",
+    "socket.io": "^4.7.5"
+  }
+}
